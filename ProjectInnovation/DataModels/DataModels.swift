@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct DogsData: Decodable {
+    var message: String?
+    var status: String?
+    
+    enum CodingKeys: String, CodingKey {
+        case message = "message"
+        case status = "status"
+    }
+}
