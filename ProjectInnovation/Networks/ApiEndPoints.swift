@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+enum EndPoints: String {
+    case getAll = "All"
+}
